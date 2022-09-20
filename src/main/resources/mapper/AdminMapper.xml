@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.yugufish.yugufish.admin.mapper.AdminMapper">
+    <select id="adminLogin"
+            parameterType="kr.co.yugufish.yugufish.admin.model.AdminVo"
+            resultType="kr.co.yugufish.yugufish.admin.model.AdminVo">
+            select * from ADMIN_LOGIN
+
+    </select>
+</mapper>
